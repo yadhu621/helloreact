@@ -14,7 +14,7 @@ class Menubar extends React.Component {
   }
 
   render(){
-    const {menuitems, birds} = this.state
+    const {menuitems} = this.state
     return (
       <div className="Menu">
         <ul>

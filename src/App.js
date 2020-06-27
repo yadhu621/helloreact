@@ -28,7 +28,6 @@ const list = [
     },
 ];
 
-const message = 'Welcome to React'
 
 class App extends React.Component {
 
@@ -63,7 +62,6 @@ class App extends React.Component {
   }
   
 }
-
 
 
 function Search (props) {
