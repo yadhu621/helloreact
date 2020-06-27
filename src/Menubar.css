@@ -1,23 +1,14 @@
-.App {
+.Menu {
   float: left;
-  width: 60%;
-  text-align: center;
-}
- 
-.Search {
-  color: blue;
-  background-color: chartreuse;
-}
-
-.Table {
-  background-color: grey;
+  width: 20%;
+  background-color: aliceblue;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+ 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -48,16 +39,9 @@
   }
 }
 
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  .App {
-    width: 80%;
-    padding: 0;
-  }
-}
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
-  .App {
+  .Menu {
     width: 100%;
   }
 }

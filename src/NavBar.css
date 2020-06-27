@@ -1,21 +1,21 @@
 .App {
-  float: left;
-  width: 60%;
   text-align: center;
-}
- 
-.Search {
-  color: blue;
-  background-color: chartreuse;
-}
-
-.Table {
-  background-color: grey;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+ 
+.Navbar {
+  width: 100%;
+  text-align: center;
+  background-color: grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-size: 200%;
+  color:white;  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -50,14 +50,13 @@
 
 @media only screen and (max-width:800px) {
   /* For tablets: */
-  .App {
-    width: 80%;
-    padding: 0;
+  .Advert {
+    width: 100%;
   }
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
-  .App {
+  .Advert {
     width: 100%;
   }
 }
